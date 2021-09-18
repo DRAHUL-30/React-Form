@@ -93,7 +93,7 @@ class App extends React.Component{
           <label>Gender </label>
           <input name="gender" value="male" type="radio" onChange={(event)=>{this.handleChange(event)}} checked={(this.state.gender === "male")}/>
           <label>Male </label>
-          <input name="male" value="female" type="radio" onChange={(event)=>{this.handleChange(event)}} checked={(this.state.gender === "female")}/>
+          <input name="gender" value="female" type="radio" onChange={(event)=>{this.handleChange(event)}} checked={(this.state.gender === "female")}/>
           <label>Female </label>
         </div><br />
         <div>
