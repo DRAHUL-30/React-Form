@@ -100,10 +100,10 @@ class App extends React.Component{
           <label>Languages Known</label><br/><br />
           <input name="c" type="checkbox" onChange={(event)=>this.handleChange(event)} checked={this.state.languages.c} value="c"/>
           <label>c</label><br/>
-          <input name="javascript" type="checkbox" onChange={(event)=>this.handleChange(event)} checked={this.state.languages.javascript} value="javascript"/>
-          <label>javascript</label><br/>
-          <input name="python" type="checkbox" onChange={(event)=>this.handleChange(event)} checked={this.state.languages.python} value="python"/>
-          <label>python</label>
+          <input name="java" type="checkbox" onChange={(event)=>this.handleChange(event)} checked={this.state.languages.javascript} value="java"/>
+          <label>java</label><br/>
+          <input name="javascript" type="checkbox" onChange={(event)=>this.handleChange(event)} checked={this.state.languages.python} value="javascript"/>
+          <label>javascript</label>
         </div><br />
         <div>
           <button type="submit" onClick={(event)=>this.handleSubmit(event)}>submit</button>
